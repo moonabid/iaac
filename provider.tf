@@ -7,7 +7,7 @@ terraform {
   }
 
    backend "s3" {
-     bucket = "futuiontech-terraform"
+     bucket = "futuiontech-terraformz"
      key    = ".terraform.tfstate"
      region = "ap-south-1"
    }
